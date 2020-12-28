@@ -28,7 +28,8 @@ else
 fi
 
 # install mecab-ko
-cd /tmp
+mkdir pyeunjeon
+cd pyeunjeon
 curl -LO https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.2.tar.gz
 tar zxfv mecab-0.996-ko-0.9.2.tar.gz
 cd mecab-0.996-ko-0.9.2
